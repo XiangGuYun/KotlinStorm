@@ -2,12 +2,10 @@ package com.kotlinbase
 
 import android.graphics.Color
 import android.os.Bundle
-import android.widget.TextView
-import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
 import com.kotlinbase.kotlin.view.PopupUtils
 import com.zoga.yun.kotlin.KotlinActivity
 import com.zoga.yun.kotlin.LayoutId
+import kotlinx.android.synthetic.main.activity_main.*
 
 @LayoutId(R.layout.activity_main)
 class MainActivity : KotlinActivity() {

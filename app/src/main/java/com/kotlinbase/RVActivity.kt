@@ -10,7 +10,7 @@ import kotlinx.android.synthetic.main.activity_rv.*
 @LayoutId(R.layout.activity_rv)
 class RVActivity : KotlinActivity() {
 
-    val list = ArrayList((1..100).toList().map{"Item$it"})//data
+    val list = ArrayList((1..10).toList().map{"Item$it"})//data
 
 
     override fun init(bundle: Bundle?) {
