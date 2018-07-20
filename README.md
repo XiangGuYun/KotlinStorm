@@ -1,6 +1,8 @@
 # KotlinStorm
 abandon old and tedious Java, make android program to be simlple!
 
+## 代码样例
+
 ### startActivity简化
 ```
 //in Java
