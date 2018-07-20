@@ -12,7 +12,10 @@ class RVActivity : KotlinActivity() {
 
     val list = ArrayList((1..100).toList().map{"Item$it"})//data
 
+
     override fun init(bundle: Bundle?) {
+
+
         val rvUtils = RVUtils(rv).rvMultiAdapter(list, { holder, pos ->
             holder.setText(R.id.tvCell,list[pos])
             holder.setText(R.id.tvCell1,list[pos])
