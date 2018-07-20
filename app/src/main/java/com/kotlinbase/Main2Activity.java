@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class Main2Activity extends AppCompatActivity {
 
@@ -11,14 +12,14 @@ public class Main2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-        Button btnTest;
 
-        btnTest.setOnClickListener(view->{
-            startActivity(new Intent(this, SecondActivity.class)
-                    .putExtra("name","lilei")
-                    .putExtra("age",12)
-                    .putExtra("isMale",false));
-        });
+        TextView tv1,tv2,tv3;
+        tv1.setText("hello");
+        tv2.setText("back");
+        tv3.setText("66666");
+        tv1.setTextColor(Color.RED);
+        tv2.setTextColor(Color.GREEN);
+        tv3.setTextColor(Color.BLUE);
 
 
     }
