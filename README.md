@@ -64,5 +64,5 @@ RVUtils(rv)//传参是RecyclerView
         R.layout.item_body,//普通列表项
         R.layout.item_foot)//底部列表项
 ```
-![avatar](/image/p1.png)
+![](/image/p1.png)
 
